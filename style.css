@@ -6,8 +6,9 @@
 body {
     background-color: black;
     color:whitesmoke;
-    font-family:PixelMplus12-Regular;
+    font-family: PixelMplus12-Regular,sans-serif;
 }
+
 
 #TitleDiv{
     text-align: center;
