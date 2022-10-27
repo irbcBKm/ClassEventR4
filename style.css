@@ -53,6 +53,7 @@ a {
   color: yellow;
 }
 
+
 @media only screen and (min-width: 500px) {
   #view{
     max-width: 80%;
@@ -65,21 +66,10 @@ a {
   }
   #main {
     width: 80%;
-    height: 90%;
     margin: 0 auto;
     font-size: 2em;
   }
   body{
     background-color: black;
-  }
-  
-#view:before {
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    width: calc(100% - 15px);
-    height: calc(100% - 15px);
-    content: '';
-    border: 2.5px solid whitesmoke;
   }
 }
